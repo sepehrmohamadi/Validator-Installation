@@ -2,9 +2,10 @@
 
 
 Requirments:
-Ubuntu Server 18.02 or 20.02
-Minumum 4 GB of Ram
-Minimum 100 GB of Disk Space
+
+- Ubuntu Server 18.02 or 20.02
+- Minumum 4 GB of Ram
+- Minimum 100 GB of Disk Space
 
 
 After you installed Ubuntu go to command Propmt and type:
