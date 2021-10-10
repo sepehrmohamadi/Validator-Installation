@@ -14,10 +14,10 @@ After you installed Ubuntu go to command Propmt and type:
 sudo apt update -y
 sudo apt install wget apt-transport-https ca-certificates curl software-properties-common openssl -y
 cd ~/
-sudo curl -L "http://rashedi.com/surnet/step1.sh" -o step1.sh && sudo chmod +x step1.sh && ./step1.sh
+sudo curl -L "https://sur-network.github.io/Validator-Installation/Set-Validator/step1.sh" -o step1.sh && sudo chmod +x step1.sh && ./step1.sh
 su - surnet
 password: (password shown above)
-sudo curl -L "http://rashedi.com/surnet/step2.sh" -o step2.sh && sudo chmod +x step2.sh && ./step2.sh
+sudo curl -L "https://sur-network.github.io/Validator-Installation/Set-Validator/step2.sh" -o step2.sh && sudo chmod +x step2.sh && ./step2.sh
 sudo usermod -aG docker ${USER}
 su - ${USER}
 password: (password shown above)
